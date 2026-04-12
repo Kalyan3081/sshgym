@@ -48,7 +48,7 @@ export default function Membership() {
                                 {p.features.map(f => (
                                     <li key={f} className="flex items-center gap-3 text-sm font-light
                     text-gray-500 dark:text-gym-muted">
-                                        <span className="w-2 h-2 rounded-full bg-accent flex-shrink-0" />
+                                        <span className="w-2 h-2 rounded-full bg-accent shrink-0" />
                                         <span className={p.highlight ? "text-gray-200" : ""}>{f}</span>
                                     </li>
                                 ))}
