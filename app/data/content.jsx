@@ -5,11 +5,12 @@ export const NAV_LINKS = [
     { name: "Membership", href: "#membership" },
     { name: "Contact", href: "#contact" },
 ];
+
 export const STATS = [
-    { val: "2018", label: "Est." },
-    { val: "500+", label: "Members" },
-    { val: "6+", label: "Programs" },
-    { val: "1", label: "Expert Trainer" },
+    { val: "2015", label: "Est." },
+    { val: "800+", label: "Members" },
+    { val: "8+", label: "Programs" },
+    { val: "5", label: "Expert Trainers" },
 ];
 
 export const PROGRAMS = [
@@ -25,18 +26,18 @@ export const PLANS = [
         features: ["Gym Access", "Locker Room", "Basic Guidance", "2 Group Classes"],
     },
     {
-        name: "Fighter", price: "₹1,299", period: "/mo", highlight: true,
+        name: "Pro", price: "₹1,299", period: "/mo", highlight: true,
         features: ["Everything in Starter", "Personal Training (4x)", "Diet Consultation", "All Group Classes", "Progress Tracking"],
     },
     {
         name: "Elite", price: "₹1,999", period: "/mo", highlight: false,
-        features: ["Everything in Fighter", "Daily PT Sessions", "Nutrition Plan", "Body Composition", "Priority Access"],
+        features: ["Everything in Pro", "Daily PT Sessions", "Nutrition Plan", "Body Composition", "Priority Access"],
     },
 ];
 
 export const CONTACT_INFO = [
-    { icon: "📞", title: "Phone", value: "+91 86183 15270", href: "tel:+918618315270" },
-    { icon: "✉️", title: "Email", value: "santoshkrishna34@gmail.com", href: "mailto:santoshkrishna34@gmail.com" },
+    { icon: "📞", title: "Phone", value: "+91  00000 00000" },
+    { icon: "✉️", title: "Email", value: "hello@yourgym.com", href: "mailto:hello@yourgym.com" },
     { icon: "🕐", title: "Hours", value: "Mon–Sat: 5:30 AM – 9:00 PM\nSunday: 6:00 AM – 12:00 PM" },
-    { icon: "📍", title: "Address", value: "Gandhi Nagar, Beside Renuka's Kitchen,\nOpp. Govt Hospital, Ballari – 583101, KA" },
+    { icon: "📍", title: "Address", value: "Your Gym Address,\nCity – 000000, State" },
 ];

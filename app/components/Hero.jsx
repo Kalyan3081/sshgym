@@ -23,7 +23,7 @@ export default function Hero() {
             px-3 py-1.5 rounded mb-7 font-barlow text-xs font-bold tracking-[0.2em] uppercase text-accent
             animate-fade-up [animation-delay:0.1s]">
                         <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse-dot" />
-                        Est. March 2018 · Ballari, Karnataka
+                        Est. 2015 · Your City
                     </div>
 
                     <h1 className="font-bebas leading-[0.88] tracking-wide text-gray-900 dark:text-gym-text mb-1
@@ -35,12 +35,12 @@ export default function Hero() {
                     <p className="font-barlow tracking-[0.5em] uppercase text-gray-500 dark:text-gym-muted mb-10
             animate-fade-up [animation-delay:0.3s]"
                         style={{ fontSize: "clamp(18px,4vw,32px)" }}>
-                        Sri Shakthi Hanuman Gym
+                        Your Gym Name Here
                     </p>
 
                     <p className="max-w-[500px] text-base leading-7 text-gray-500 dark:text-gym-muted font-light mb-12
             animate-fade-up [animation-delay:0.4s]">
-                        Where discipline meets dedication. Train under the guidance of Santosh Krishna
+                        Where discipline meets dedication. Train under expert guidance
                         and transform your body, mind, and life — one rep at a time.
                     </p>
 

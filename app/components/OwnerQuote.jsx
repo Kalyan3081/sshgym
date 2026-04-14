@@ -6,9 +6,9 @@ export default function OwnerQuote() {
                 <p className="font-light italic text-gray-900 dark:text-gym-text leading-relaxed mb-8"
                     style={{ fontSize: "clamp(18px,3vw,24px)" }}>
                     Our commitment to improvement is unceasing. We continuously enhance our offerings
-                    to better serve the people of Ballari and help every member achieve their fitness goals.
+                    to better serve our community and help every member achieve their fitness goals.
                 </p>
-                <div className="font-bebas text-[28px] tracking-[0.15em] text-accent">Santosh Krishna</div>
+                <div className="font-bebas text-[28px] tracking-[0.15em] text-accent">Your Name Here</div>
                 <div className="font-barlow text-sm font-semibold tracking-widest uppercase text-gray-400 dark:text-gym-muted mt-1">
                     Owner &amp; Head Trainer
                 </div>

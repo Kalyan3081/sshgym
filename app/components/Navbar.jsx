@@ -23,7 +23,7 @@ export default function Navbar() {
         ${scrolled ? "border-b border-gray-200 dark:border-gym-border" : "border-b border-transparent"}`}>
 
                 <span className="font-bebas text-[22px] tracking-widest text-accent">
-                    SSH<span className="text-gray-900 dark:text-gym-text">Gym</span>
+                    Your<span className="text-gray-900 dark:text-gym-text">Gym</span>
                 </span>
 
                 <ul className="hidden md:flex gap-8 list-none">
@@ -65,11 +65,11 @@ export default function Navbar() {
                 <div className="fixed top-16 inset-x-0 z-40 bg-gray-50 dark:bg-gym-bg2
           border-b border-gray-200 dark:border-gym-border px-[5vw] py-5 md:hidden">
                     {NAV_LINKS.map(l => (
-                        <Link key={l} href={`#${l.toLowerCase()}`} onClick={() => setOpen(false)}
+                        <Link key={l.name} href={l.href} onClick={() => setOpen(false)}
                             className="block font-barlow font-bold text-lg tracking-widest uppercase
                 text-gray-500 dark:text-gym-muted hover:text-accent py-3
                 border-b border-gray-100 dark:border-gym-border transition-colors">
-                            {l}
+                            {l.name}
                         </Link>
                     ))}
                 </div>

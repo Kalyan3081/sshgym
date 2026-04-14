@@ -1,5 +1,5 @@
-import KioskScreen from "./KioskScreen"
+// import KioskScreen from "./KioskScreen"
 
-export default function KioskPage() {
-    return <KioskScreen />;
-}
+// export default function KioskPage() {
+//     return <KioskScreen />;
+// }
