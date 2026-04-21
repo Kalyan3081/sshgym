@@ -23,7 +23,7 @@ export default function Navbar() {
         ${scrolled ? "border-b border-gray-200 dark:border-gym-border" : "border-b border-transparent"}`}>
 
                 <span className="font-bebas text-[22px] tracking-widest text-accent">
-                    Your<span className="text-gray-900 dark:text-gym-text">Gym</span>
+                    Gym<span className="text-gray-900 dark:text-gym-text">Logo</span>
                 </span>
 
                 <ul className="hidden md:flex gap-8 list-none">

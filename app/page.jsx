@@ -1,3 +1,4 @@
+import About from "./components/About";
 import CTABanner from "./components/CTABanner";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -15,6 +16,7 @@ export default function HomePage() {
       <Hero />
       <Programs />
       <OwnerQuote />
+      <About />
       <Membership />
       <CTABanner />
       <Location />
